@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\R5T.Capua\source\R5T.Capua.Standard\R5T.Capua.Standard.csproj" />
+    <ProjectReference Include="..\..\..\R5T.Liverpool\source\R5T.Liverpool.HostedServiceProgram\R5T.Liverpool.HostedServiceProgram.csproj" />
+    <ProjectReference Include="..\..\..\R5T.Macommania.Standard\source\R5T.Macommania.Standard\R5T.Macommania.Standard.csproj" />
+    <ProjectReference Include="..\..\..\R5T.Richmond.Types\source\R5T.Richmond.Types\R5T.Richmond.Types.csproj" />
+    <ProjectReference Include="..\R5T.Miletus.Common\R5T.Miletus.Common.csproj" />
+    <ProjectReference Include="..\R5T.Miletus.Configuration\R5T.Miletus.Configuration.csproj" />
+  </ItemGroup>
+
+</Project>
