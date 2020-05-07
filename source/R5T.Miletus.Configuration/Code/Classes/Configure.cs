@@ -7,7 +7,7 @@ namespace R5T.Miletus.Configuration
 {
     public static class Configure
     {
-        public static void ConfigureProjectSpecificValues(string projectName, string buildConfigurationName, string targetFrameworkName)
+        public static void ProjectSpecificValues(string projectName, string buildConfigurationName, string targetFrameworkName)
         {
             StaticValueProjectNameProvider.ProjectName = projectName;
             StaticValueBuildConfigurationNameProvider.BuildConfigurationName = buildConfigurationName;
