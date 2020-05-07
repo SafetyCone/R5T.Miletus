@@ -7,7 +7,7 @@ using R5T.Lombardy;
 namespace R5T.Miletus.Common
 {
     // Standard is based on ..\R5T.Capua.Console\source\ΩMaintenance\bin\Debug\netcoreapp2.2
-    class StandardSolutionAndProjectFileSystemConvention : ISolutionAndProjectFileSystemConvention
+    public class StandardSolutionAndProjectFileSystemConvention : ISolutionAndProjectFileSystemConvention
     {
         private IStringlyTypedPathOperator StringlyTypedPathOperator { get; }
 
