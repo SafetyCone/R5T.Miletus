@@ -1,13 +1,13 @@
-﻿using System;
+using System;
 
 using R5T.Karlstad;
 using R5T.Macommania;
-using R5T.Ujung;
+using R5T.Ujung;using R5T.T0064;
 
 
 namespace R5T.Miletus.Common
-{
-    public class SolutionDirectoryPathProvider : ISolutionDirectoryPathProvider
+{[ServiceImplementationMarker]
+    public class SolutionDirectoryPathProvider : ISolutionDirectoryPathProvider,IServiceImplementation
     {
         private IExecutableFileDirectoryPathProvider ExecutableFileDirectoryPathProvider { get; }
         private ISolutionAndProjectFileSystemConvention SolutionAndProjectFileSystemConventions { get; }

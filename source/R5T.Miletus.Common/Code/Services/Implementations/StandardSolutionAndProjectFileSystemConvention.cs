@@ -1,13 +1,13 @@
-﻿using System;
+using System;
 
 using R5T.Karlstad;
-using R5T.Lombardy;
+using R5T.Lombardy;using R5T.T0064;
 
 
 namespace R5T.Miletus.Common
-{
+{[ServiceImplementationMarker]
     // Standard is based on ..\R5T.Capua.Console\source\ΩMaintenance\bin\Debug\netcoreapp2.2
-    public class StandardSolutionAndProjectFileSystemConvention : ISolutionAndProjectFileSystemConvention
+    public class StandardSolutionAndProjectFileSystemConvention : ISolutionAndProjectFileSystemConvention,IServiceImplementation
     {
         private IStringlyTypedPathOperator StringlyTypedPathOperator { get; }
 
