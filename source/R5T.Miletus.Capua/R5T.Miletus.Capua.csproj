@@ -1,9 +1,9 @@
 <Project Sdk="Microsoft.NET.Sdk">
-
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <NoWarn>1591;1573</NoWarn>
   </PropertyGroup>
-
   <ItemGroup>
     <ProjectReference Include="..\..\..\R5T.Capua\source\R5T.Capua.Standard\R5T.Capua.Standard.csproj" />
     <ProjectReference Include="..\..\..\R5T.Liverpool\source\R5T.Liverpool.HostedServiceProgram\R5T.Liverpool.HostedServiceProgram.csproj" />
@@ -12,5 +12,4 @@
     <ProjectReference Include="..\R5T.Miletus.Common\R5T.Miletus.Common.csproj" />
     <ProjectReference Include="..\R5T.Miletus.Configuration\R5T.Miletus.Configuration.csproj" />
   </ItemGroup>
-
 </Project>
